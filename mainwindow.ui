@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="formLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>630</x>
+      <y>10</y>
+      <width>160</width>
+      <height>314</height>
+     </rect>
+    </property>
+    <layout class="QFormLayout" name="formLayout">
+     <property name="sizeConstraint">
+      <enum>QLayout::SetFixedSize</enum>
+     </property>
+     <property name="horizontalSpacing">
+      <number>6</number>
+     </property>
+     <property name="verticalSpacing">
+      <number>8</number>
+     </property>
+     <property name="leftMargin">
+      <number>7</number>
+     </property>
+     <property name="topMargin">
+      <number>5</number>
+     </property>
+     <item row="0" column="0">
+      <widget class="QLabel" name="label_Ax">
+       <property name="text">
+        <string>Ax</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QDoubleSpinBox" name="doubleSpinBox_Ax">
+       <property name="value">
+        <double>99.000000000000000</double>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label_Wx">
+       <property name="text">
+        <string>Wx</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QDoubleSpinBox" name="doubleSpinBox_Wx">
+       <property name="value">
+        <double>1.000000000000000</double>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="label_Dx">
+       <property name="text">
+        <string>Dx</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QDoubleSpinBox" name="doubleSpinBox_Dx"/>
+     </item>
+     <item row="3" column="1">
+      <widget class="QPushButton" name="pushButton_startX">
+       <property name="text">
+        <string>Start X</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="QPushButton" name="pushButton_stopX">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="text">
+        <string>Stop X</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="1">
+      <spacer name="verticalSpacer">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>11</width>
+         <height>100</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item row="6" column="0">
+      <widget class="QLabel" name="label_Ay">
+       <property name="text">
+        <string>Ay</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="1">
+      <widget class="QDoubleSpinBox" name="doubleSpinBox_Ay">
+       <property name="value">
+        <double>99.000000000000000</double>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="0">
+      <widget class="QLabel" name="label_Wy">
+       <property name="text">
+        <string>Wy</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="1">
+      <widget class="QDoubleSpinBox" name="doubleSpinBox_Wy">
+       <property name="value">
+        <double>2.000000000000000</double>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="0">
+      <widget class="QLabel" name="label_Dy">
+       <property name="text">
+        <string>Dy</string>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="1">
+      <widget class="QDoubleSpinBox" name="doubleSpinBox_Dy"/>
+     </item>
+     <item row="9" column="1">
+      <widget class="QPushButton" name="pushButton_startY">
+       <property name="text">
+        <string>Start Y</string>
+       </property>
+      </widget>
+     </item>
+     <item row="10" column="1">
+      <widget class="QPushButton" name="pushButton_stopY">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="text">
+        <string>Stop Y</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
